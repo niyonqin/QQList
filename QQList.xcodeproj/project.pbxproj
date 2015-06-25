@@ -14,6 +14,11 @@
 		F1C3A8CF1A2037EA0081A6E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C3A8CE1A2037EA0081A6E4 /* Images.xcassets */; };
 		F1C3A8D21A2037EA0081A6E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1C3A8D01A2037EA0081A6E4 /* LaunchScreen.xib */; };
 		F1C3A8DE1A2037EA0081A6E4 /* QQListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C3A8DD1A2037EA0081A6E4 /* QQListTests.m */; };
+		F1C3A8EC1A2038650081A6E4 /* JKGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C3A8EB1A2038650081A6E4 /* JKGroupModel.m */; };
+		F1C3A8EF1A2038780081A6E4 /* JKFriendsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C3A8EE1A2038780081A6E4 /* JKFriendsModel.m */; };
+		F1C3A8F11A2038E10081A6E4 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1C3A8F01A2038E10081A6E4 /* friends.plist */; };
+		F1C3A90D1A2061300081A6E4 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C3A90C1A2061300081A6E4 /* ListTableViewController.m */; };
+		F1C3A9201A20B8E30081A6E4 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C3A91F1A20B8E30081A6E4 /* HeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,15 @@
 		F1C3A8D71A2037EA0081A6E4 /* QQListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C3A8DC1A2037EA0081A6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1C3A8DD1A2037EA0081A6E4 /* QQListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQListTests.m; sourceTree = "<group>"; };
+		F1C3A8EA1A2038650081A6E4 /* JKGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKGroupModel.h; sourceTree = "<group>"; };
+		F1C3A8EB1A2038650081A6E4 /* JKGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKGroupModel.m; sourceTree = "<group>"; };
+		F1C3A8ED1A2038780081A6E4 /* JKFriendsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKFriendsModel.h; sourceTree = "<group>"; };
+		F1C3A8EE1A2038780081A6E4 /* JKFriendsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKFriendsModel.m; sourceTree = "<group>"; };
+		F1C3A8F01A2038E10081A6E4 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
+		F1C3A90B1A2061300081A6E4 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		F1C3A90C1A2061300081A6E4 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		F1C3A91E1A20B8E30081A6E4 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		F1C3A91F1A20B8E30081A6E4 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,9 @@
 		F1C3A8C01A2037EA0081A6E4 /* QQList */ = {
 			isa = PBXGroup;
 			children = (
+				F1C3A9071A205E8E0081A6E4 /* Controller */,
+				F1C3A91D1A20B8840081A6E4 /* View */,
+				F1C3A8E81A20381F0081A6E4 /* Model */,
 				F1C3A8C51A2037EA0081A6E4 /* AppDelegate.h */,
 				F1C3A8C61A2037EA0081A6E4 /* AppDelegate.m */,
 				F1C3A8C81A2037EA0081A6E4 /* ViewController.h */,
@@ -96,6 +113,7 @@
 		F1C3A8C11A2037EA0081A6E4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F1C3A8F01A2038E10081A6E4 /* friends.plist */,
 				F1C3A8C21A2037EA0081A6E4 /* Info.plist */,
 				F1C3A8C31A2037EA0081A6E4 /* main.m */,
 			);
@@ -117,6 +135,35 @@
 				F1C3A8DC1A2037EA0081A6E4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1C3A8E81A20381F0081A6E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1C3A8EA1A2038650081A6E4 /* JKGroupModel.h */,
+				F1C3A8EB1A2038650081A6E4 /* JKGroupModel.m */,
+				F1C3A8ED1A2038780081A6E4 /* JKFriendsModel.h */,
+				F1C3A8EE1A2038780081A6E4 /* JKFriendsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1C3A9071A205E8E0081A6E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1C3A90B1A2061300081A6E4 /* ListTableViewController.h */,
+				F1C3A90C1A2061300081A6E4 /* ListTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F1C3A91D1A20B8840081A6E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1C3A91E1A20B8E30081A6E4 /* HeaderView.h */,
+				F1C3A91F1A20B8E30081A6E4 /* HeaderView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +248,7 @@
 			files = (
 				F1C3A8CD1A2037EA0081A6E4 /* Main.storyboard in Resources */,
 				F1C3A8D21A2037EA0081A6E4 /* LaunchScreen.xib in Resources */,
+				F1C3A8F11A2038E10081A6E4 /* friends.plist in Resources */,
 				F1C3A8CF1A2037EA0081A6E4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +267,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C3A9201A20B8E30081A6E4 /* HeaderView.m in Sources */,
+				F1C3A8EC1A2038650081A6E4 /* JKGroupModel.m in Sources */,
 				F1C3A8CA1A2037EA0081A6E4 /* ViewController.m in Sources */,
+				F1C3A8EF1A2038780081A6E4 /* JKFriendsModel.m in Sources */,
 				F1C3A8C71A2037EA0081A6E4 /* AppDelegate.m in Sources */,
 				F1C3A8C41A2037EA0081A6E4 /* main.m in Sources */,
+				F1C3A90D1A2061300081A6E4 /* ListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +466,7 @@
 				F1C3A8E31A2037EA0081A6E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1C3A8E41A2037EA0081A6E4 /* Build configuration list for PBXNativeTarget "QQListTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +475,7 @@
 				F1C3A8E61A2037EA0081A6E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
